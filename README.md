@@ -1,11 +1,11 @@
 # Final Project CIS206 Step 1
 
 > Write a Java program which will convert a CSV file containing covid 19 data into javascript object notation (JSON)
-> data.
-
-> For this project, you will want to use a combination of ArrayLists (or a regular array) and one of the Map Collections
+> format.
+> The covid19 file can be found at this URL (https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)[https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv]
+> For this project, you will want to use a combination of ArrayList (or a regular array) and one of the Map Collections
 > Hashmap or Tree Map.  The conversion will involve reading the data file line by line reading it into the appropriate
-> structure.  Do this in a method called read_records. When the structure is filled, then send the structure to a method called print_records which will print it out in the following format:
+> structure.  Do this in a method called ***read_records***. When the structure is filled, then send the structure to a method called ***print_records*** which will print it out in the following format:
 <pre><code>
 "ABW" :  { 
     "2020-03-13" :  {
@@ -49,3 +49,5 @@
 .
 .
 </code></pre>
+
+> Structure the program so that appropriate methods are used in a class called JSONParser.  Ensure good program structure by dividing the processing is efficiently happening in separate methods for reading and writing the data.  
