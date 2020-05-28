@@ -51,4 +51,4 @@
 .
 </code></pre>
 
-> Structure the program so that appropriate methods are used in a class called JSONParser.  Ensure good program structure by dividing the processing into separate methods for reading, writing and or analyzing the input data.  
+> Structure the program so that appropriate methods are used in a class called ***JSONParser***.  Ensure good program structure by dividing the processing into separate methods for reading, writing and or analyzing the input data.  
